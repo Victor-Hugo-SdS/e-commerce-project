@@ -13,11 +13,11 @@
     <title>E-Market</title>
 </head>
 <body>
-    
-    <header>
+   
+    <header class="navbar-header">
         <div class="container">
             <div class="row justify-content-center justify-content-md-between align-items-center gap-3 gap-md-0 py-4">
-                <a href="/index.php" class="col-6"><img src="img/E-MARKET.png" alt="Logo E-Market"></a>
+                <a href="/index.php" class="col-6"><img src="img/E-MARKET.png" alt="Logo E-Market" width="200px"></a>
                 <div class="col-12 col-md-4 col-xl-3">
                     <form class="search-area rounder-3 p-3 d-flex flex-nowrap">
                         <i class="bi bi-search me-2"></i>
@@ -25,5 +25,29 @@
                     </form>
                 </div>
             </div>
+
+            <nav class="navbar navbar-expand-md navbar-light">
+                    <div> 
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>    
+            </nav>
         </div>
     </header>

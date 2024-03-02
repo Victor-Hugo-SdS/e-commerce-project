@@ -1,20 +1,23 @@
+.navbar-header{
+    background-color: $primary;
+}
 .search-area{
-    border-radius: 7px;
+    border-radius: 20px;
 }
 
 .search-area, .search-area input {
     background-color: $search;
     border: none;
-    color: $lilas01;
+    color: $primary;
     width: 100%;
 }
 
 .search-area input::placeholder {
-    color: $lilas02;
+    color: $secondary;
 }
 
 .search-area i{
-    color: $lilas01;
+    color: $primary;
 }
 
 .search-area input:focus {
