@@ -7,7 +7,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="src/style.css">
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <title>E-Market</title>
@@ -27,25 +27,29 @@
             </div>
 
             <nav class="navbar navbar-expand-md navbar-light">
-                    <div> 
+                    <div class="container px-0"> 
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link px-0" aria-current="page" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Products</a>
+                                    <a class="nav-link px-0 mx-md-3" href="#">Products</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link px-0" href="#">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link disabled">Contact</a>
+                                    <a class="nav-link px-0 mx-md-3" href="#">Contact</a>
                                 </li>
                             </ul>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <a href="#"><img src="img/bag.svg" alt="Bag"></a>
+                            <a href="#"><img src="img/profile.svg" alt="profile" class="mb-0 mx-3"></a>
                         </div>
                     </div>    
             </nav>
