@@ -24,7 +24,7 @@
                         <input type="text" placeholder="Search Products">
                     </form>
                 </div>
-            </div>
+            </div> 
 
             <nav class="navbar navbar-expand-md navbar-light">
                     <div class="container px-0"> 

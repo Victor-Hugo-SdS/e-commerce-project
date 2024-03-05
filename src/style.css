@@ -7522,4 +7522,35 @@ progress {
   .navbar .nav-item .nav-link {
     color: #EFEFEF;
   }
+}
+.footer {
+  background-color: #3F1936;
+  padding: 40px 5px 0 0;
+}
+.footer h4, .footer .h4 {
+  color: #695E72;
+  padding-bottom: 13px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer a, .footer i, .footer p {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.footer hr {
+  color: #A550C2;
+}
+.footer h5, .footer .h5 {
+  color: #695E72;
+  font-weight: 500;
+}
+.footer a:hover, .footer i:hover {
+  color: #695E72;
+  transition: 0.3s;
+}
+
+.reserved {
+  padding-bottom: 90px;
 }/*# sourceMappingURL=style.css.map */

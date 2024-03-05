@@ -1,0 +1,30 @@
+.footer{
+    background-color: $footer-dark;
+    padding: 40px 5px 0 0;
+    & h4 {
+        color: $footer-gray;
+        padding-bottom: 13px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    & a, & i, & p {
+        color: $white;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    & hr {
+        color: $primary;
+    }
+    & h5{
+        color: $footer-gray;
+        font-weight: 500;
+    }
+    & a:hover, & i:hover{
+        color: $footer-gray;
+        transition: .3s;
+    }
+}
+.reserved {
+    padding-bottom: 90px;
+}
