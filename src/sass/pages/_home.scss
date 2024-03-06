@@ -1,8 +1,15 @@
 .carousel-home .carousel-item {
     height: 650px;
-    background-image: url('/img/bg-carousel-2.png');
     background-position: center;
     background-size: cover;
+}
+
+.carousel-home .bg-img-1 {
+    background-image: url('/img/bg-carousel-1.png');
+}
+
+.carousel-home .bg-img-2 {
+    background-image: url('/img/bg-carousel-2.jpg');
 }
 
 .carousel-home .carousel-caption {
@@ -32,4 +39,27 @@
     border-radius: 50%;
     background-color: $search;
     margin: 0 8px;
+}
+
+@media(max-width: 992px){
+    .carousel-home .carousel-item {
+        height: 400px;
+    }
+
+    .carousel-home .carousel-caption {
+        padding-top: 90px;
+    }
+    .carousel-home .carousel-caption h2 {
+        font-size: 48px;
+    }
+}
+
+@media(max-width: 768px){
+    .carousel-home .carousel-caption {
+        
+        text-align: center;
+    }
+    .carousel-home .carousel-caption h2 {
+        font-size: 36px;
+    }
 }

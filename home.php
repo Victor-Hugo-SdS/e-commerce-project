@@ -10,8 +10,8 @@
             </div>
 
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-item active bg-img-1">
+                    <div class="carousel-caption">
                         <div class="container">
                             <h2>Buy more easily!</h2>
                             <p class="py-4">Discover a world of possibilities in our store, where every click<br> is a new shopping adventure!</p>
@@ -20,8 +20,8 @@
                     </div>
                 </div>
 
-                <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-item bg-img-2">
+                    <div class="carousel-caption">
                         <div class="container">
                             <h2>Buy more easily!</h2>
                             <p class="py-4">Discover a world of possibilities in our store, where every click<br> is a new shopping adventure!</p>
@@ -30,8 +30,8 @@
                     </div>
                 </div>
 
-                <div class="carousel-item">
-                    <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-item bg-img-1">
+                    <div class="carousel-caption">
                         <div class="container">
                             <h2>Buy more easily!</h2>
                             <p class="py-4">Discover a world of possibilities in our store, where every click<br> is a new shopping adventure!</p>

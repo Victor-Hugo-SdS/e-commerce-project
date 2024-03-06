@@ -11,3 +11,10 @@
     background-color: #961dc2e0;
     transition: .3s;
 }
+
+@media(max-width: 768px){
+    .btn-carousel{
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+}
