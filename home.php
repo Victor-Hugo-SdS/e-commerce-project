@@ -34,7 +34,7 @@
                     <div class="carousel-caption d-none d-md-block">
                         <div class="container">
                             <h2>Buy more easily!</h2>
-                            <p class="py-4"Discover a world of possibilities in our store, where every click<br> is a new shopping adventure!</p>
+                            <p class="py-4">Discover a world of possibilities in our store, where every click<br> is a new shopping adventure!</p>
                             <a href="#" class="btn-carousel">Find out more</a>
                         </div>
                     </div>
