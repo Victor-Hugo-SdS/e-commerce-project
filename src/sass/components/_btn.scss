@@ -1,0 +1,13 @@
+.btn-carousel {
+    background-color: $primary;
+    border-radius: 55px;
+    padding: 13px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    color: $white;
+} 
+
+.btn-carousel:hover{
+    background-color: #961dc2e0;
+    transition: .3s;
+}

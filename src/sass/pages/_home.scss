@@ -1,0 +1,31 @@
+.carousel-home .carousel-item {
+    height: 650px;
+    background-image: url('/img/bg-carousel-2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-home .carousel-caption {
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 200px;
+    padding-bottom: 1.25rem;
+    color: $white;
+    text-align: start;
+}
+
+
+.carousel-home .carousel-caption h2 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.carousel-home .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $search;
+    margin: 0 8px;
+}
