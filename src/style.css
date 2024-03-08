@@ -7794,6 +7794,13 @@ progress {
 .carousel-home .carousel-caption h2, .carousel-home .carousel-caption .h2 {
   font-weight: 700;
   font-size: 60px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.459);
+}
+
+.carousel-home .carousel-caption p {
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.45);
 }
 
 .carousel-home .carousel-indicators [data-bs-target] {
@@ -7802,6 +7809,47 @@ progress {
   border-radius: 50%;
   background-color: #EFEFEF;
   margin: 0 8px;
+}
+
+.card {
+  border: solid 6px rgba(170, 168, 168, 0.24);
+  border-radius: 35px;
+}
+
+.card .card-text {
+  font-weight: 600;
+}
+
+.bg-image {
+  background-image: url("../../../img/bg-image-limeted-offer.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+}
+
+.bg-image .bg-image-mask .container {
+  color: #fff;
+}
+
+.bg-image .bg-image-mask .container h5, .bg-image .bg-image-mask .container .h5 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.bg-image .bg-image-mask .container .offer {
+  margin: 0;
+  padding: 90px 0;
+  font-weight: 600;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.bg-image-mask {
+  background-color: rgba(58, 58, 58, 0.589);
 }
 
 @media (max-width: 992px) {
@@ -7823,6 +7871,14 @@ progress {
     font-size: 36px;
   }
 }
+@media (max-width: 576px) {
+  .carousel-home .carousel-caption {
+    text-align: center;
+  }
+  .carousel-home .carousel-caption h2, .carousel-home .carousel-caption .h2 {
+    font-size: 36px;
+  }
+}
 .btn-carousel {
   background-color: #8406B0;
   border-radius: 55px;
@@ -7835,6 +7891,30 @@ progress {
 .btn-carousel:hover {
   background-color: rgba(150, 29, 194, 0.8784313725);
   transition: 0.3s;
+}
+
+.btn-card {
+  padding: 4px 4px;
+  margin-block: auto;
+  border-radius: 50%;
+  background-color: #8406B0;
+  color: #fff;
+}
+
+.btn-limited-offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.btn-limited-offer p {
+  margin: 0;
+  border-radius: 25px;
+  background-color: #8406B0;
+  color: #fff;
+  padding: 4px 20px;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {

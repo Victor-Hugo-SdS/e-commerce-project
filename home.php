@@ -1,5 +1,6 @@
 <?php require_once('includes/header.php');?>
 
+    <!--Carousel Home-->
     <section>
         <div id="carouselExampleCaptions" class="carousel slide carousel-home">
 
@@ -41,6 +42,40 @@
                 </div>
             </div>
 
+        </div>
+    </section>
+
+    <!--Cards-->
+    <section>
+        <div class="container my-5">
+            <h2>Featured Products</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 my-5">
+                <?php
+                    for($i =0; $i < 4; $i++) { require('includes/components/products-item.php'); }
+                ?>
+            </div>
+        </div>
+    </section>
+
+    <!--LIMITED OFFER-->
+    <section>
+        <div class="bg-image">
+            <div class="bg-image-mask">
+                <div class="container">
+                    <h5>LIMITED OFFER</h5>
+                    <div class="d-flex justify-content-center">
+                        <div>
+                            <p class="offer"> 50% off today and get a special gift</p>
+
+                            <div class="btn-limited-offer">
+                                <a href="#" >
+                                    <p>Grab It Now</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

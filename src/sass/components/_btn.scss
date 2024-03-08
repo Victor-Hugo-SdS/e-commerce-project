@@ -12,9 +12,38 @@
     transition: .3s;
 }
 
+//button cards
+.btn-card {
+    padding: 4px 4px;
+    margin-block: auto;
+    border-radius: 50%;
+    background-color: $primary;
+    color: $white;
+}
+
+//button limited offer
+.btn-limited-offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;   
+}
+
+.btn-limited-offer p{
+    margin: 0;
+    border-radius: 25px;
+    background-color: $primary;
+    color: $white;
+    padding: 4px 20px;
+    font-weight: 500;  
+}
+
+
+
 @media(max-width: 768px){
     .btn-carousel{
         padding: 10px 25px;
         font-size: 14px;
     }
 }
+

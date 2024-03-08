@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row text-center text-lg-start reserved">
                 <div class="col-lg col-12 my-5 my-lg-0">
-                    <a href="/index.php"><img src="img/E-MARKET.png" alt="Logo E-Market" width="200"></a>
+                    <a href="/home.php"><img src="img/E-MARKET.png" alt="Logo E-Market" width="200"></a>
                     <p class="mt-4">
                         Amazonas, Manaus <br>
                         +55 92 98184-7400 <br>

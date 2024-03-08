@@ -1,3 +1,4 @@
+//Carousel
 .carousel-home .carousel-item {
     height: 650px;
     background-position: center;
@@ -27,10 +28,16 @@
     text-decoration: none;
 }
 
-
 .carousel-home .carousel-caption h2 {
     font-weight: 700;
     font-size: 60px;
+    -webkit-text-stroke-width: .5px; 
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.459);
+}
+
+.carousel-home .carousel-caption p {
+    -webkit-text-stroke-width: .8px; 
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.45);
 }
 
 .carousel-home .carousel-indicators [data-bs-target] {
@@ -40,6 +47,48 @@
     background-color: $search;
     margin: 0 8px;
 }
+
+//products item
+.card {
+    border:solid 6px rgba(170, 168, 168, 0.24);
+    border-radius: 35px;
+}
+.card .card-text{
+    font-weight: 600;
+}
+
+//Bg-Image
+.bg-image {
+    background-image: url('../../../img/bg-image-limeted-offer.jpg');
+    background-position: center;
+    background-size: cover;    
+    padding: 0;
+}
+
+.bg-image .bg-image-mask .container{
+    color: $white;
+}
+.bg-image .bg-image-mask .container h5 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.bg-image .bg-image-mask .container .offer {
+    margin: 0;
+    padding: 90px 0;
+    font-weight: 600;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-image-mask {
+    background-color: rgba(58, 58, 58, 0.589);
+}
+
 
 @media(max-width: 992px){
     .carousel-home .carousel-item {
@@ -62,4 +111,18 @@
     .carousel-home .carousel-caption h2 {
         font-size: 36px;
     }
+
+    
+}
+
+@media(max-width: 576px){
+    .carousel-home .carousel-caption {
+        
+        text-align: center;
+    }
+    .carousel-home .carousel-caption h2 {
+        font-size: 36px;
+    }
+
+    
 }
